@@ -1,0 +1,31 @@
+{
+  "name": "js_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel src/index.html -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohtapan/JS_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohtapan/JS_practice/issues"
+  },
+  "homepage": "https://github.com/ohtapan/JS_practice#readme",
+  "devDependencies": {
+    "hyperapp": "^1.2.9",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.20.3"
+  },
+  "dependencies": {
+    "highlight.js": "^9.15.8",
+    "marked": "^0.6.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
