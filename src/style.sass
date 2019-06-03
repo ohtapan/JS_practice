@@ -1,0 +1,38 @@
+html, body
+  height: 100%
+  width: 100%
+  margin: 0
+
+#app
+  display: flex
+  height: 100%
+
+textarea, #preview
+  flex: 1 1 0
+  overflow-y: scroll
+
+textarea
+  padding: 1em
+  font-size: 12px
+  background-color: #eee
+  line-height: 1.5em
+  font-family: courier, monospace
+  border: 0
+
+#preview
+  padding: 1em
+
+pre
+  padding: 15px
+  background-color: #282c34
+  color: #EEE
+  margin-right: 10px
+
+@media print
+  textarea
+    display: none
+  #preview
+    overflow-y: visible
+
+.hljs
+  all: unset
