@@ -23,7 +23,7 @@
     "sass": "^1.20.3"
   },
   "dependencies": {
-    "highlight.js": "^9.15.8",
+    "highlight.js": "^10.1.2",
     "marked": "^0.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
