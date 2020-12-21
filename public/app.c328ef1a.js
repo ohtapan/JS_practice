@@ -24845,15 +24845,15 @@ var actions = {
 };
 
 var view = function view(state, actions) {
-  return (0, _hyperapp.h)("main", {
+  return React.createElement("main", {
     id: "app"
-  }, (0, _hyperapp.h)("textarea", {
+  }, React.createElement("textarea", {
     id: "editor",
     spellcheck: "false",
     oninput: function oninput(e) {
       return actions.setOutput(document.getElementById('editor').value);
     }
-  }), (0, _hyperapp.h)("div", {
+  }), React.createElement("div", {
     id: "preview",
     innerHTML: state.output
   }));
@@ -24894,7 +24894,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59425" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62671" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
